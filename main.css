@@ -1,0 +1,48 @@
+
+header {
+	position: absolute;
+    height: 147px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+/* Сайт 1 Цвета/Доп. цвета/Заливка header */
+
+background: rgba(222, 222, 222, 0.5);
+/* Сайт 1 Эффекты/Blur header */
+
+backdrop-filter: blur(10px);
+}
+li,a,button {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1F1E1E;
+}
+.logo{
+    position: absolute;
+    width: 202px;
+    height: 147px;
+    left: 293px;
+    top: 0px;
+}
+.cap li {
+    display: inline-block;
+	cursor: pointer;
+	padding: 20px 40px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+.cap li a {
+	transition: all .4s ease 0s;
+}
+
+.cap li a:hover {
+	color: #1e8fc8f8
+}
