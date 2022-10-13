@@ -1,17 +1,22 @@
 
 header {
-	position: absolute;
+	/* position: absolute;
     height: 147px;
     left: 0px;
     right: 0px;
     top: 0px;
-
-/* Сайт 1 Цвета/Доп. цвета/Заливка header */
-
-background: rgba(222, 222, 222, 0.5);
-/* Сайт 1 Эффекты/Blur header */
-
-backdrop-filter: blur(10px);
+    background: rgba(222, 222, 222, 0.5);
+    backdrop-filter: blur(10px); */
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 147px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+	background: #dedede80;
+	position: static;
+	z-index: 4;
 }
 li,a,button {
     font-family: 'Open Sans', sans-serif;
@@ -20,6 +25,7 @@ li,a,button {
     font-size: 18px;
     line-height: 25px;
     color: #1F1E1E;
+    text-decoration: none;
 }
 .logo{
     position: absolute;
@@ -27,6 +33,11 @@ li,a,button {
     height: 147px;
     left: 293px;
     top: 0px;
+}
+.cap {
+	list-style: none;
+
+
 }
 .cap li {
     display: inline-block;
@@ -45,4 +56,11 @@ li,a,button {
 
 .cap li a:hover {
 	color: #1e8fc8f8
+}
+.lenni {
+    position: absolute;
+    width: 1920px;
+    height: 325px;
+    left: 0px;
+    top: 375px;
 }
