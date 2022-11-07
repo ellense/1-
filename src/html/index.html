@@ -1,28 +1,25 @@
 <!DOCTYPE html>  <!-- Указывайте Doctype -->
 <html lang="ru">  <!-- Указывайте язык документа -->
-  <head>  <!-- Визуально отделяйте вложенные элементы двойным пробелом -->
-    <meta charset="UTF-8" />  <!-- Указывайте кодировку -->
-    <title>Lenni</title> <!-- Задавайте заголовок -->
-    <link rel="stylesheet" href="main.css" />
-    <style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');</style>
-  </head>
-  
-  <body>
-  
-  <header class="header">
-    <img src="img/logo.png" class="logo">
-    <nav class="NavlinksHeader">
-      <ul class="cap">
-          <li><a href="#">Мероприятия</a></li>
-          <li><a href="#">Блог</a></li>
-          <li><a href="#">О нас</a></li>
-          <li><a href="#">Контакты</a></li>
-      </ul>
-    </nav>
-    <a href="#" class="input"><button class="ButInput">Войти</button></a>
-  </header>
+<!-- @@include('blocks/head.html') -->
+<head>  <!-- Визуально отделяйте вложенные элементы двойным пробелом -->
+  <meta charset="UTF-8" />  <!-- Указывайте кодировку -->
+  <title>Lenni</title> <!-- Задавайте заголовок -->
+  <link rel="stylesheet" href="main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
 
- <div class="container">
+  <body class="body">
+
+@@include('blocks/page-header.html') 
+  
+
+<main class="main">
+
+</main>
+
+ <!-- <div class="container">
     <h3 class="zagolovok">АРТ-ПРОСТРАНСТВО</h3>
  </div>
  <img src="img/LENNI.png" class="lenni">
@@ -49,7 +46,9 @@
       <h2>Проект «Millennials» </h2>
       <p>Вдохновлен молодыми идейными людьми, увлеченными творчеством, эмоциями и желанием сделать мир лучше, проявить себя. У них есть талант и стремление, у нас возможность помочь им воплотить их мечту в реальность.</p>
     </div>
-  </section>
+  </section> -->
+    <footer class="page-footer">
 
+    </footer>
   </body>
 </html>
