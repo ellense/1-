@@ -4,7 +4,7 @@
 <head> <!-- Визуально отделяйте вложенные элементы двойным пробелом -->
   <meta charset="UTF-8" /> <!-- Указывайте кодировку -->
   <title>Lenni</title> <!-- Задавайте заголовок -->
-  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="/dist/styles/styles.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -41,14 +41,14 @@
   </header>
 
   <main class="main">
-    <div class="event">
-      <div class="reserve event__reserve">
-        <div class="reserve__checkbox"></div>
-        <div class="reserve__scheme"></div>
-        <div class="reserve__order"></div>
-        <div class="reserve__legend"></div>
-      </div>
-    </div>
+    <article class="event">
+      <form class="reserve event__reserve">
+        <div class="reserve__checks">чекбоксы</div>
+        <div class="reserve__scheme">схема столов</div>
+        <div class="reserve__order">оформление заказов</div>
+        <div class="reserve__legend">легенда</div>
+      </form>
+    </article>
   </main>
 
   <footer class="page-footer">

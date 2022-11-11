@@ -1,0 +1,37 @@
+.reserve {
+    display: grid;
+    gap: 65px 11%;
+    grid-template-columns: 405px calc(89% - 405px);
+    grid-template-areas: 
+    "checks scheme"
+    "order legend";
+    width: 100%;
+
+
+    &__checks {
+        grid-area: checks;
+        background-color: aqua;
+        height: 100px;
+    }
+    
+    &__scheme {
+        grid-area: scheme;
+        background-color: rgb(239, 15, 15);
+        height: 100px;
+    }
+
+    &__order {
+        grid-area: scheme;
+        background-color: rgb(235, 239, 15);
+        height: 100px;
+    }
+
+    &__legend {
+        grid-area: scheme;
+        background-color: rgb(239, 15, 217);
+        height: 100px;
+    }
+
+    
+}
+
