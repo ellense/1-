@@ -1,13 +1,11 @@
 .pp {
   box-sizing: border-box;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 90px 95px 50px;
-  background-color: rgba(28, 27, 27, 0.4);
-  backdrop-filter: blur(50px);
+  width: 100%;
+  height: 100vh;
+  min-width: 1200px;
+  padding: 90px 40px 50px;
+  background-color: fade(@black, 40%);
+  backdrop-filter: blur(20px);
   overflow-y: auto;
   z-index: 110;
   display: flex;
@@ -21,7 +19,6 @@
     max-width: 1210px;
     margin: auto;
     background-color: @gray;
-    background-image: url(/assets/images/noise.png);
     background-position: 0 0;
     background-size: auto;
     background-repeat: repeat;
@@ -32,25 +29,6 @@
     max-width: 950px;
     margin: 0 auto;
     padding: 0 40px 40px;
-  }
-
-  &__sticky-close {
-    position: sticky;
-    top: 0;
-    align-self: flex-end;
-    width: 0;
-    height: 0;
-  }
-
-  &__x-btn {
-    
-    position: absolute;
-    top: -30px;
-    right: -30px;
-    padding: 24px;
-    background-color: @black;
-    border: none;
-    border-radius: 50%;
   }
 
   &__title {
@@ -70,5 +48,17 @@
     color: @white;
     letter-spacing: 0.02em;
     z-index: 1;
+  }
+  &__sticky-close {
+    position: sticky;
+    top: 0;
+    align-self: flex-end;
+    width: 0;
+    height: 0;
+  }
+  &__x-btn {
+    position: absolute;
+    top: -30px;
+    right: -30px;
   }
 }

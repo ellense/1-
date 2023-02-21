@@ -32,99 +32,150 @@
   </header>
 
   <main class="main">
-    <div class="article__content content">
-      <h1>Заголовок h1</h1>
-      <h2>Заголовок h2</h2>
-      <h4>Заголовок h4</h4>
-      <h4>Заголовок h4</h4>
-      <h5>Заголовок h5</h5>
-      <h6>Заголовок h6</h6>
+    <div class="container">
+      <article class="event">
+        <div class="article__content content">
 
-      <p>
-        Абзац текста, содержащий <b>жирный</b> текст и <a href="https://tagree.ru/" target="_blank">ссылку</a>.
-      </p>
-      <ul>
-        <li>Элемент списка 1</li>
-        <li>Элемент списка 2</li>
-        <li>Элемент списка 3</li>
-      </ul>
-      <ol>
-        <li>Элемент списка 1</li>
-        <li>Элемент списка 2</li>
-        <li>Элемент списка 3</li>
-      </ol>
-      <blockquote>
-        Здесь содержится цитата
-      </blockquote>
-    </div>
-    <article class="event">
-      <form class="reserve event__reserve">
-        <!-- <div class="reserve__checks">чекбоксы</div>
+          <h6 class="field__title">Программа мероприятия:</h6>
+          <h1>Заголовок h1</h1>
+          <h2>Заголовок h2</h2>
+          <h4>Заголовок h4</h4>
+          <h4>Заголовок h4</h4>
+          <h5>Заголовок h5</h5>
+          <h6>Заголовок h6</h6>
+
+          <p>
+            Абзац текста, содержащий <b>жирный</b> текст и <a href="https://tagree.ru/" target="_blank">ссылку</a>.
+          </p>
+          <ul>
+            <li>Элемент списка 1</li>
+            <li>Элемент списка 2</li>
+            <li>Элемент списка 3</li>
+          </ul>
+          <ol>
+            <li>Элемент списка 1</li>
+            <li>Элемент списка 2</li>
+            <li>Элемент списка 3</li>
+          </ol>
+          <blockquote>
+            Здесь содержится цитата
+          </blockquote>
+        </div>
+
+        <form class="reserve event__reserve">
+          <!-- <div class="reserve__checks">чекбоксы</div>
                 <div class="reserve__scheme">схема столов</div>
                 <div class="reserve__order">оформление заказов</div>
                 <div class="reserve__legend">легенда</div> -->
-        <form class="reserve">
-          <div class="reserve__checks">
-            <h4 class="reserve__section-title">
-              Забронировать столик
-            </h4>
-            <label class="reserve__check check check--red">
-              <input type="checkbox" name="table_1" class="check__input" />
-              <span class="check__mark"></span>
-              <span class="check__label">1 стол</span>
-            </label>
-            <label class="reserve__check check">
-              <input type="checkbox" name="table_2" class="check__input" />
-              <span class="check__mark"></span>
-              <span class="check__label">2 стол</span>
-            </label>
-            <label class="reserve__check check">
-              <input type="checkbox" name="table_2" class="check__input" />
-              <span class="check__mark"></span>
-              <span class="check__label">3 стол</span>
-            </label>
-            <label class="reserve__check check">
-              <input type="checkbox" name="table_2" class="check__input" />
-              <span class="check__mark"></span>
-              <span class="check__label">4 стол</span>
-            </label>
-            <!-- Еще чекбоксы -->
-            <label class="reserve__check check check--disabled">
-              <input type="checkbox" name="table_5" class="check__input" disabled />
-              <span class="check__mark"></span>
-              <span class="check__label">5 стол </span>
-            </label>
+          <form class="reserve">
+            <div class="reserve__checks">
+              <h4 class="reserve__section-title">
+                Забронировать столик
+              </h4>
+              <label class="reserve__check check check--red">
+                <input type="checkbox" name="table_1" class="check__input" />
+                <span class="check__mark"></span>
+                <span class="check__label">1 стол</span>
+              </label>
+              <label class="reserve__check check">
+                <input type="checkbox" name="table_2" class="check__input" />
+                <span class="check__mark"></span>
+                <span class="check__label">2 стол</span>
+              </label>
+              <label class="reserve__check check">
+                <input type="checkbox" name="table_2" class="check__input" />
+                <span class="check__mark"></span>
+                <span class="check__label">3 стол</span>
+              </label>
+              <label class="reserve__check check">
+                <input type="checkbox" name="table_2" class="check__input" />
+                <span class="check__mark"></span>
+                <span class="check__label">4 стол</span>
+              </label>
+              <!-- Еще чекбоксы -->
+              <label class="reserve__check check check--disabled">
+                <input type="checkbox" name="table_5" class="check__input" disabled />
+                <span class="check__mark"></span>
+                <span class="check__label">5 стол </span>
+              </label>
 
-            <!-- Оставшиеся чекбоксы -->
+              <!-- Оставшиеся чекбоксы -->
+            </div>
+
+            <!-- Прочие элементы формы -->
+          </form>
+
+
+          <div class="reserve__order">
+            <h4 class="reserve__section-title">Ваши пригласительные билеты</h4>
+            <div class="reserve__tickets-list">
+              <div class="reserve__tickets">
+                <div class="reserve__qty" data-caption="шт." data-price="1400">0</div>
+                <div class="reserve__sum" data-currency="₽">0</div>
+              </div>
+              <div class="reserve__tickets">
+                <div class="reserve__qty" data-caption="шт." data-price="1250">0</div>
+                <div class="reserve__sum" data-currency="₽">0</div>
+              </div>
+            </div>
+            <div class="reserve__total" data-caption="Сумма" data-currency="₽">0</div>
+            <button type="submit" class="btn btn--red reserve__submit">
+              Купить билеты
+            </button>
           </div>
-
-          <!-- Прочие элементы формы -->
         </form>
-
-
-        <div class="reserve__order">
-          <h4 class="reserve__section-title">Ваши пригласительные билеты</h4>
-          <div class="reserve__tickets-list">
-            <div class="reserve__tickets">
-              <div class="reserve__qty" data-caption="шт." data-price="1400">0</div>
-              <div class="reserve__sum" data-currency="₽">0</div>
-            </div>
-            <div class="reserve__tickets">
-              <div class="reserve__qty" data-caption="шт." data-price="1250">0</div>
-              <div class="reserve__sum" data-currency="₽">0</div>
-            </div>
-          </div>
-          <div class="reserve__total" data-caption="Сумма" data-currency="₽">0</div>
-          <button type="submit" class="btn btn--red reserve__submit">
-            Купить билеты
-          </button>
-        </div>
-      </form>
-    </article>
+      </article>
+    </div>
   </main>
 
   <footer class="page-footer">
+    <div class="page-footer__container">
+      <div class="page-footer__content ">
+        <img src="assets/images/Rectangle 138.png" alt="image" class="page-footer__separator">
 
+        <blockquote>
+          <ul class="page-footer__ul">
+            <li class="page-footer__li">
+              <a href="#" class="page-footer__nav-link">Календарь мероприятий</a>
+            </li>
+            <li class="page-footer__li">
+              <a href="#" class="page-footer__nav-link">Провести мероприятие</a>
+            </li>
+            <li class="page-footer__li">
+              <a href="#" class="page-footer__nav-link">Стать арендатором</a>
+            </li>
+            <li class="page-footer__li">
+              <a href="#" class="page-footer__nav-link">Наши проекты</a>
+            </li>
+            <li class="page-footer__li">
+              <a href="#" class="page-footer__nav-link">Контакты</a>
+            </li>
+          </ul>
+        </blockquote>
+        <div class="page-footer__author">© Millennials 2022</div>
+        <div class="page-footer__text">Политика конфиденциальности</div>
+        <div class="page-footer__text">Cookies</div>
+      </div>
+      <div class="page-footer__content ">
+        <img src="assets/images/Rectangle 252.png" alt="image" class="page-footer__separator">
+        <label class="field form__field form__field--w50">
+          <div class="page-footer__text">Подпишись и будь в курсе происходящего</div>
+          <input class="page-footer__input" type="email" placeholder="Email" name="email" required />
+        </label>
+        <div class="form__check-list">
+          <label class="form__check check">
+            <input type="checkbox" name="agree" class="check__input" required checked />
+            <span class="check__mark"></span>
+            <span class="check__label check__label--s">
+              Согласен на обработку персональных данных
+            </span>
+          </label>
+        </div>
+        <div class="page-footer__cicle">
+          <img src="assets/images/insta.png" alt="img">
+        </div>
+      </div>
+    </div>
   </footer>
 </body>
 

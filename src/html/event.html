@@ -7,7 +7,11 @@
   @@include('blocks/page-header.html') 
 
     <main class="main">
+      <div class="container">
+        <article class="event">
       <div class="article__content content">
+        
+        <h6 class="field__title">Программа мероприятия:</h6>
         <h1>Заголовок h1</h1>
         <h2>Заголовок h2</h2>
         <h4>Заголовок h4</h4>
@@ -32,7 +36,7 @@
           Здесь содержится цитата
         </blockquote>
       </div>
-        <article class="event">
+        
             <form class="reserve event__reserve">
                 <!-- <div class="reserve__checks">чекбоксы</div>
                 <div class="reserve__scheme">схема столов</div>
@@ -117,10 +121,9 @@
                 </div>
             </form>
         </article>
+      </div>
     </main>
 
-    <footer class="page-footer">
-
-    </footer>
+    @@include('blocks/page-footer.html')
   </body>
 </html>
