@@ -6,13 +6,25 @@
   width: 100%;
   max-width: 1414px;
   margin: 0 auto;
-  padding-left: 40px;
-  padding-right: 40px;
+  // padding-left: 40px;
+  // padding-right: 40px;
 
   &__events-cards{
     display: flex;
     flex-wrap: wrap;
     margin: 0 -30px;
+  }
+  &__link{
+    display: flex;
+    justify-content: end;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    transition: 0.3s;
+    &:hover {
+      color:@red_dark;
+    }
   }
 }
  
