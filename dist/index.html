@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type='image/png' href="assets/images/logo.png">
 </head>
 
 <body class="body">
@@ -35,10 +36,13 @@
     <div class="container">
       <div class="home">
         <div class="home__div">
-          <div class="home__text">арт — пространство</div>
+          <div class="home__text home__margin100">арт — пространство</div>
         </div>
         <div class="home__divlenni">
-          <img src="assets/images/LENNI.png" alt="lenni" class="home__lenni">
+          <!-- <img src="assets/images/LENNI.png" alt="lenni" class="home__lenni"> -->
+          <svg class="home__lenni" width="1518.28" height="257">
+            <use xlink:href="assets/icons/symbols.svg#LENNI"></use>
+          </svg>
         </div>
         <div class="home__div">
           <div class="home__text">для людей, горящих сердец и делом
@@ -72,8 +76,8 @@
           </p>
         </div>
         <div class="home__aboutus-look">
-          <div class="home__aboutus-look-red"></div>
-          <img src="assets/images/home2.jpg" alt="lenni" class="home__aboutus-look-img">
+          <div class="aboutus-look-red"></div>
+          <img src="assets/images/home2.jpg" alt="lenni" class="aboutus-look-img">
           <p class="home__aboutus-look-normaltext">Мы уже успешно организовали и провели более 100 проектов.
             Посмотрите, как это было классно.</p>
           <a href="#" class="home__aboutus-look-watch">
@@ -83,6 +87,7 @@
             </svg>
           </a>
         </div>
+
 
         <div class="home__events">
           <h2 class="listing__title section-title">Мероприятия</h2>
@@ -110,9 +115,7 @@
                 </a>
                 <p class="article-card__description">Организовывая фотосессию для локального бренда одежды мы смогли воплотить все пожелания заказчика и у нас получилась отличная работа. Смотрите как это было </p>
               </div>
-              <div class="article-card__hr">
-                <hr class="article-card__line">
-              </div>
+              <!-- <div class="article-card__hr"></div> -->
 
 
             </article>
@@ -134,9 +137,7 @@
                 </a>
                 <p class="article-card__description">Клуб виртуальной реальности - это другие миры. яркие эмоции. новый опыт. ... Мы предоставляем нашим клиентам лучший игровой VR-опыт в Томске.</p>
               </div>
-              <div class="article-card__hr">
-                <hr class="article-card__line">
-              </div>
+              <!-- <div class="article-card__hr"></div> -->
 
 
             </article>
@@ -158,9 +159,7 @@
                 </a>
                 <p class="article-card__description">15 электрогенераторов, километры проводов и пару тонн света. Все это для того, чтобы организовать лучшую вечеринку года для ребят из Новосибирска.</p>
               </div>
-              <div class="article-card__hr">
-                <hr class="article-card__linenone">
-              </div>
+              <!-- <div class="article-card__hr"></div> -->
 
 
             </article>
@@ -206,43 +205,43 @@
             <img src="assets/images/maps.png" alt="img" class="contacts__content-maps">
           </div>
         </section>
+
+        <!-- <img src="assets/images/Просто делайте, что нравится,.png" alt="img" class="home__text-big">
+          <img src="assets/images/а мы вам поможем.png" alt="img" class="home__text-big2"> -->
+        <div class="home__text-before-footer">
+          <svg class="home__text-big" width="2161" height="122">
+            <use xlink:href="assets/icons/symbols.svg#doit"></use>
+          </svg>
+        </div>
+        <div class="home__text-before-footer2">
+          <svg class="home__text-big2" width="1397" height="122">
+            <use xlink:href="assets/icons/symbols.svg#help"></use>
+          </svg>
+        </div>
       </div>
     </div>
   </main>
 
   <footer class="page-footer">
-    <div class="page-footer__container">
-      <div class="page-footer__content ">
-        <img src="assets/images/Rectangle 138.png" alt="image" class="page-footer__separator">
-
-        <blockquote>
-          <ul class="page-footer__ul">
-            <li class="page-footer__li">
-              <a href="#" class="page-footer__nav-link">Календарь мероприятий</a>
-            </li>
-            <li class="page-footer__li">
-              <a href="#" class="page-footer__nav-link">Провести мероприятие</a>
-            </li>
-            <li class="page-footer__li">
-              <a href="#" class="page-footer__nav-link">Стать арендатором</a>
-            </li>
-            <li class="page-footer__li">
-              <a href="#" class="page-footer__nav-link">Наши проекты</a>
-            </li>
-            <li class="page-footer__li">
-              <a href="#" class="page-footer__nav-link">Контакты</a>
-            </li>
-          </ul>
-        </blockquote>
-        <div class="page-footer__author">© Millennials 2022</div>
-        <div class="page-footer__text">Политика конфиденциальности</div>
-        <div class="page-footer__text">Cookies</div>
+    <div class="page-footer__lines">
+      <div class="page-footer__lines-line"></div>
+      <div class="page-footer__lines-line"></div>
+    </div>
+    <div class="page-footer__info">
+      <div class="page-footer__info-links">
+        <a href="#" target="_blank" class="page-footer__info-link">Календарь мероприятий</a>
+        <a href="#" target="_blank" class="page-footer__info-link">Провести мероприятие</a>
+        <a href="#" target="_blank" class="page-footer__info-link">Стать арендатором</a>
+        <a href="#" target="_blank" class="page-footer__info-link">Наши проекты</a>
+        <a href="#" target="_blank" class="page-footer__info-link">Контакты</a>
       </div>
-      <div class="page-footer__content ">
-        <img src="assets/images/Rectangle 252.png" alt="image" class="page-footer__separator">
-        <label class="field form__field form__field--w50">
-          <div class="page-footer__text">Подпишись и будь в курсе происходящего</div>
-          <input class="page-footer__input" type="email" placeholder="Email" name="email" required />
+      <div class="page-footer__email">
+        <label class="page-footer__field">
+          <span class="page-footer__text">Подпишись и будь в курсе происходящего</span>
+          <div class="page-footer__input-button">
+            <input class="page-footer__input" type="email" placeholder="Email" name="email" required />
+            <button type="submit" class="page-footer__btn">Подписаться</button>
+          </div>
         </label>
         <div class="form__check-list">
           <label class="form__check check">
@@ -253,9 +252,36 @@
             </span>
           </label>
         </div>
-        <div class="page-footer__cicle">
-          <img src="assets/images/insta.png" alt="img">
+      </div>
+    </div>
+
+    <div class="page-footer__footer">
+      <div class="page-footer__footer-left">
+        <div class="">© Millennials 2022</div>
+        <div class="page-footer__footer-left-a">
+          <a href="#" class="page-footer__text" target="_blank">Политика конфиденциальности</a>
+          <a href="#" class="page-footer__text" target="_blank">Cookies</a>
         </div>
+      </div>
+      <div class="page-footer__footer-middle">
+        <a href="#" target="_blank">
+          <svg class="arrow__icon" width="58" height="58">
+            <use xlink:href="assets/icons/symbols.svg#INSTA"></use>
+          </svg>
+        </a>
+        <a href="#" target="_blank">
+          <svg class="arrow__icon" width="58" height="58">
+            <use xlink:href="assets/icons/symbols.svg#VK"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="page-footer__footer-right">
+        <div href="#" class="page-footer__text" target="_blank">Создание и продвижение</div>
+        <a href="https://tagree.ru/" target="_blank">
+          <svg class="arrow__icon" width="56" height="17">
+            <use xlink:href="assets/icons/symbols.svg#tagree"></use>
+          </svg>
+        </a>
       </div>
     </div>
   </footer>

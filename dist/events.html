@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type='image/png' href="assets/images/logo.png">
 </head>
 
 <body class="body">
@@ -223,42 +224,85 @@
           </tfoot>
         </table>
       </div>
+      <div class="home__div iwant__margin">
+        <div class="iwant">
+          <p class="iwant__text">Я ХОЧУ:</p>
+          <div class="iwant__btns">
+            <button class="iwant__event">Провести мероприятие</button>
+            <button class="iwant__rent btn">Стать арендатором</button>
+          </div>
+        </div>
+      </div>
+      <div class="info">
+        <div class="info__listing">
+          <div class="info__content">
+            <div class="info__list-content-black">
+              <!-- <img src="assets/images/contact1.png" alt="img" class="info__content-img1"> -->
+              <svg class="info__content-img1" width="22" height="22">
+                <use xlink:href="assets/icons/symbols.svg#info"></use>
+              </svg>
+            </div>
+            <div class="info__list-content-text">
+              <p class="info__list-content-t1">Цены</p>
+              <p class="info__list-content-t2">Цены, указанные на сайте носят
+                <br>информационный характер. Мы придерживаемся
+                <br>индивидуального подхода в работе с клиентом.
+              </p>
+            </div>
+          </div>
+          <div class="info__content">
+            <div class="info__list-content-black">
+              <svg class="info__content-img1" width="20" height="20">
+                <use xlink:href="assets/icons/symbols.svg#tele"></use>
+              </svg>
+            </div>
+            <div class="info__list-content-text">
+              <p class="info__list-content-t1">Контакты</p>
+              <p class="info__list-content-t2">Отдел организации мероприятий
+                <br>+7 499 350 0730
+                <br>hi@tagree.ru
+              </p>
+            </div>
+          </div>
+          <div class="info__content">
+            <div class="info__list-content-black">
+              <svg class="info__content-img1" width="20" height="18">
+                <use xlink:href="assets/icons/symbols.svg#hands"></use>
+              </svg>
+            </div>
+            <div class="info__list-content-text">
+              <p class="info__list-content-t1">Преимущество</p>
+              <p class="info__list-content-t2">Мы имеем все возможности для того, чтобы
+                <br>помочь как малому бизнесу и молодым талантам,
+                <br>так и большим корпорациям и холдингам.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
   <footer class="page-footer">
-    <div class="page-footer__container">
-      <div class="page-footer__content ">
-        <img src="assets/images/Rectangle 138.png" alt="image" class="page-footer__separator">
-
-        <blockquote>
-          <ul class="page-footer__ul">
-            <li class="page-footer__li">
-              <a href="#" class="page-footer__nav-link">Календарь мероприятий</a>
-            </li>
-            <li class="page-footer__li">
-              <a href="#" class="page-footer__nav-link">Провести мероприятие</a>
-            </li>
-            <li class="page-footer__li">
-              <a href="#" class="page-footer__nav-link">Стать арендатором</a>
-            </li>
-            <li class="page-footer__li">
-              <a href="#" class="page-footer__nav-link">Наши проекты</a>
-            </li>
-            <li class="page-footer__li">
-              <a href="#" class="page-footer__nav-link">Контакты</a>
-            </li>
-          </ul>
-        </blockquote>
-        <div class="page-footer__author">© Millennials 2022</div>
-        <div class="page-footer__text">Политика конфиденциальности</div>
-        <div class="page-footer__text">Cookies</div>
+    <div class="page-footer__lines">
+      <div class="page-footer__lines-line"></div>
+      <div class="page-footer__lines-line"></div>
+    </div>
+    <div class="page-footer__info">
+      <div class="page-footer__info-links">
+        <a href="#" target="_blank" class="page-footer__info-link">Календарь мероприятий</a>
+        <a href="#" target="_blank" class="page-footer__info-link">Провести мероприятие</a>
+        <a href="#" target="_blank" class="page-footer__info-link">Стать арендатором</a>
+        <a href="#" target="_blank" class="page-footer__info-link">Наши проекты</a>
+        <a href="#" target="_blank" class="page-footer__info-link">Контакты</a>
       </div>
-      <div class="page-footer__content ">
-        <img src="assets/images/Rectangle 252.png" alt="image" class="page-footer__separator">
-        <label class="field form__field form__field--w50">
-          <div class="page-footer__text">Подпишись и будь в курсе происходящего</div>
-          <input class="page-footer__input" type="email" placeholder="Email" name="email" required />
+      <div class="page-footer__email">
+        <label class="page-footer__field">
+          <span class="page-footer__text">Подпишись и будь в курсе происходящего</span>
+          <div class="page-footer__input-button">
+            <input class="page-footer__input" type="email" placeholder="Email" name="email" required />
+            <button type="submit" class="page-footer__btn">Подписаться</button>
+          </div>
         </label>
         <div class="form__check-list">
           <label class="form__check check">
@@ -269,9 +313,36 @@
             </span>
           </label>
         </div>
-        <div class="page-footer__cicle">
-          <img src="assets/images/insta.png" alt="img">
+      </div>
+    </div>
+
+    <div class="page-footer__footer">
+      <div class="page-footer__footer-left">
+        <div class="">© Millennials 2022</div>
+        <div class="page-footer__footer-left-a">
+          <a href="#" class="page-footer__text" target="_blank">Политика конфиденциальности</a>
+          <a href="#" class="page-footer__text" target="_blank">Cookies</a>
         </div>
+      </div>
+      <div class="page-footer__footer-middle">
+        <a href="#" target="_blank">
+          <svg class="arrow__icon" width="58" height="58">
+            <use xlink:href="assets/icons/symbols.svg#INSTA"></use>
+          </svg>
+        </a>
+        <a href="#" target="_blank">
+          <svg class="arrow__icon" width="58" height="58">
+            <use xlink:href="assets/icons/symbols.svg#VK"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="page-footer__footer-right">
+        <div href="#" class="page-footer__text" target="_blank">Создание и продвижение</div>
+        <a href="https://tagree.ru/" target="_blank">
+          <svg class="arrow__icon" width="56" height="17">
+            <use xlink:href="assets/icons/symbols.svg#tagree"></use>
+          </svg>
+        </a>
       </div>
     </div>
   </footer>
