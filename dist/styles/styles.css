@@ -713,7 +713,6 @@ textarea:focus::placeholder {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  margin-bottom: 100px;
   -webkit-transition: color 0.2s, text-decoration-color 0.2s;
   -o-transition: color 0.2s, text-decoration-color 0.2s;
   transition: color 0.2s, text-decoration-color 0.2s;
@@ -900,10 +899,15 @@ textarea:focus::placeholder {
   width: 100%;
 }
 .home__margin100 {
-  margin-top: 247px;
+  margin-top: 100px;
+}
+.home__marginB100 {
+  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 .home__listing {
   margin-bottom: 95px;
+  margin-top: 70px;
 }
 .home__div {
   display: -webkit-box;
@@ -936,7 +940,6 @@ textarea:focus::placeholder {
   display: -ms-flexbox;
   display: flex;
   text-transform: uppercase;
-  margin: 0 auto;
 }
 .home__divlenni {
   width: 1920px;
@@ -1204,9 +1207,6 @@ textarea:focus::placeholder {
           flex-direction: column;
   min-width: 624px;
   height: 128px;
-}
-.iwant__margin50 {
-  margin-top: 50px;
 }
 .iwant p {
   margin-bottom: 46px;
@@ -1827,6 +1827,7 @@ textarea:focus::placeholder {
   border-collapse: collapse;
   color: #1F1E1E;
   text-align: center;
+  margin-bottom: 50px;
 }
 .table__tr:nth-child(2n-1) {
   background-color: rgba(31, 30, 30, 0.03);
